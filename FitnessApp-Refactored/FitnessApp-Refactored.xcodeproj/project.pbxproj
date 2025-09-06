@@ -1,0 +1,91 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB1110011B1B1B1B00111111 /* FitnessApp_RefactoredApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1101011B1B1B1B00111111 /* FitnessApp_RefactoredApp.swift */; };
+		BB1110021B1B1B1B00111111 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1101021B1B1B1B00111111 /* ContentView.swift */; };
+		BB1110031B1B1B1B00111111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1101041B1B1B1B00111111 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB1100011B1B1B1B00111111 /* FitnessApp-Refactored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitnessApp-Refactored.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1101011B1B1B1B00111111 /* FitnessApp_RefactoredApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessApp_RefactoredApp.swift; sourceTree = "<group>"; };
+		BB1101021B1B1B1B00111111 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB1101031B1B1B1B00111111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB1101041B1B1B1B00111111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB1102011B1B1B1B00111111 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB1103011B1B1B1B00111111 = {isa = PBXGroup; children = (
+			BB1104011B1B1B1B00111111 /* FitnessApp-Refactored */, 
+			BB1100021B1B1B1B00111111 /* Products */,
+		); sourceTree = "<group>"; };
+		BB1100021B1B1B1B00111111 /* Products */ = {isa = PBXGroup; children = (
+			BB1100011B1B1B1B00111111 /* FitnessApp-Refactored.app */,
+		); name = Products; sourceTree = "<group>"; };
+		BB1104011B1B1B1B00111111 /* FitnessApp-Refactored */ = {isa = PBXGroup; children = (
+			BB1101011B1B1B1B00111111 /* FitnessApp_RefactoredApp.swift */,
+			BB1101021B1B1B1B00111111 /* ContentView.swift */,
+			BB1101041B1B1B1B00111111 /* Assets.xcassets */,
+			BB1101031B1B1B1B00111111 /* Info.plist */,
+		); path = "FitnessApp-Refactored"; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB1105011B1B1B1B00111111 /* FitnessApp-Refactored */ = {isa = PBXNativeTarget; buildConfigurationList = BB1108011B1B1B1B00111111 /* Build configuration list for PBXNativeTarget "FitnessApp-Refactored" */; buildPhases = (
+			BB1101011B1B1B1B00111112 /* Sources */, 
+			BB1102011B1B1B1B00111111 /* Frameworks */, 
+			BB1102021B1B1B1B00111111 /* Resources */, 
+		); buildRules = ( ); dependencies = ( ); name = "FitnessApp-Refactored"; productName = "FitnessApp-Refactored"; productReference = BB1100011B1B1B1B00111111 /* FitnessApp-Refactored.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB1106011B1B1B1B00111111 /* Project object */ = {isa = PBXProject; attributes = { LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; ORGANIZATIONNAME = "Example"; TargetAttributes = { BB1105011B1B1B1B00111111 = { CreatedOnToolsVersion = 15.0; }; }; }; buildConfigurationList = BB1106021B1B1B1B00111111 /* Build configuration list for PBXProject "FitnessApp-Refactored" */; compatibilityVersion = "Xcode 15.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = ( en ); mainGroup = BB1103011B1B1B1B00111111; productRefGroup = BB1100021B1B1B1B00111111 /* Products */; projectDirPath = ""; projectRoot = ""; targets = ( BB1105011B1B1B1B00111111 /* FitnessApp-Refactored */ ); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB1102021B1B1B1B00111111 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = ( BB1110031B1B1B1B00111111 /* Assets.xcassets in Resources */ ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB1101011B1B1B1B00111112 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = ( BB1110011B1B1B1B00111111 /* FitnessApp_RefactoredApp.swift in Sources */, BB1110021B1B1B1B00111111 /* ContentView.swift in Sources */ ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB1107011B1B1B1B00111111 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { SWIFT_VERSION = 5.0; }; name = Debug; };
+		BB1107021B1B1B1B00111111 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { SWIFT_VERSION = 5.0; }; name = Release; };
+		BB1108031B1B1B1B00111111 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			INFOPLIST_FILE = "FitnessApp-Refactored/Info.plist";
+			IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.example.FitnessAppRefactored;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+		}; name = Debug; };
+		BB1108041B1B1B1B00111111 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			INFOPLIST_FILE = "FitnessApp-Refactored/Info.plist";
+			IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.example.FitnessAppRefactored;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+		}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB1106021B1B1B1B00111111 /* Build configuration list for PBXProject "FitnessApp-Refactored" */ = {isa = XCConfigurationList; buildConfigurations = ( BB1107011B1B1B1B00111111 /* Debug */, BB1107021B1B1B1B00111111 /* Release */ ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		BB1108011B1B1B1B00111111 /* Build configuration list for PBXNativeTarget "FitnessApp-Refactored" */ = {isa = XCConfigurationList; buildConfigurations = ( BB1108031B1B1B1B00111111 /* Debug */, BB1108041B1B1B1B00111111 /* Release */ ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = BB1106011B1B1B1B00111111 /* Project object */;
+}
